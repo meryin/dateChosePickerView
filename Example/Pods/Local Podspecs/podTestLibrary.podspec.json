@@ -1,0 +1,25 @@
+{
+  "name": "podTestLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of podTestLibrary.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/podTestLibrary",
+  "license": "MIT",
+  "authors": {
+    "meryin": "meryincx@163.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/podTestLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "podTestLibrary": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
