@@ -14,6 +14,7 @@
 		B93BF1741C44E7690028BC3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93BF1721C44E7690028BC3D /* LaunchScreen.storyboard */; };
 		B93BF17F1C44E7690028BC3D /* DatePicker_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93BF17E1C44E7690028BC3D /* DatePicker_SwiftTests.swift */; };
 		B93BF18A1C44E7690028BC3D /* DatePicker_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93BF1891C44E7690028BC3D /* DatePicker_SwiftUITests.swift */; };
+		B93BF1981C44EE080028BC3D /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93BF1971C44EE080028BC3D /* DatePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B93BF1851C44E7690028BC3D /* DatePicker-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DatePicker-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93BF1891C44E7690028BC3D /* DatePicker_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker_SwiftUITests.swift; sourceTree = "<group>"; };
 		B93BF18B1C44E7690028BC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B93BF1971C44EE080028BC3D /* DatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				B93BF1691C44E7690028BC3D /* AppDelegate.swift */,
 				B93BF16B1C44E7690028BC3D /* ViewController.swift */,
+				B93BF1971C44EE080028BC3D /* DatePickerView.swift */,
 				B93BF16D1C44E7690028BC3D /* Main.storyboard */,
 				B93BF1701C44E7690028BC3D /* Assets.xcassets */,
 				B93BF1721C44E7690028BC3D /* LaunchScreen.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					B93BF1651C44E7690028BC3D = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 63RP9HW9RS;
 					};
 					B93BF1791C44E7690028BC3D = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -256,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93BF1981C44EE080028BC3D /* DatePickerView.swift in Sources */,
 				B93BF16C1C44E7690028BC3D /* ViewController.swift in Sources */,
 				B93BF16A1C44E7690028BC3D /* AppDelegate.swift in Sources */,
 			);
@@ -329,6 +334,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -374,6 +380,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -399,9 +406,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "DatePicker-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mobao.SCar.DatePicker-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yishengjia.DatePicker-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -410,9 +419,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "DatePicker-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mobao.SCar.DatePicker-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yishengjia.DatePicker-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -484,6 +495,7 @@
 				B93BF1901C44E7690028BC3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B93BF1911C44E7690028BC3D /* Build configuration list for PBXNativeTarget "DatePicker-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +504,7 @@
 				B93BF1931C44E7690028BC3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B93BF1941C44E7690028BC3D /* Build configuration list for PBXNativeTarget "DatePicker-SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +513,7 @@
 				B93BF1961C44E7690028BC3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
